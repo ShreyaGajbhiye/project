@@ -1,0 +1,8 @@
+setup.py
+shreyagajbhiye.egg-info/PKG-INFO
+shreyagajbhiye.egg-info/SOURCES.txt
+shreyagajbhiye.egg-info/dependency_links.txt
+shreyagajbhiye.egg-info/requires.txt
+shreyagajbhiye.egg-info/top_level.txt
+src/__init__.py
+src/mcqgenerator/__init__.py
