@@ -7,8 +7,8 @@ def get_table_data(music_str):
     try:
         ##converting the music list from a str to dict
         print(f"Debug: Music string to decode: {music_str}")
-        if music_str.startswith("###RESPONSE_JSON "):
-            music_str = music_str[len("###RESPONSE_JSON "):]
+        # if music_str.startswith("###RESPONSE_JSON "):
+        #     music_str = music_str[len("###RESPONSE_JSON "):]
         music_dict = json.loads(music_str)
         music_table_data= []
         for key in music_dict["songs"]:
